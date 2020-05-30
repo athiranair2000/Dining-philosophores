@@ -11,3 +11,10 @@ Consider there are five philosophers sitting around a circular dining table with
 
 ## Output:
 ![dinp](https://user-images.githubusercontent.com/43813386/83329280-2fe48e00-a2a6-11ea-8b19-d2667f1f28d4.png)
+
+## Solution :
+Methods to avoid deadlock:
+- There should be at most four philosophers on the table.
+- An even philosopher should pick the right chopstick and then left chopstick.
+- An odd philosopher should pick the left chopstick and then the right chopstick.
+- A philosopher should only be allowed to pick their chopstick if both are available at the same time.
